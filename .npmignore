@@ -1,0 +1,32 @@
+# 源代码（只发布编译后的文件）
+src/
+*.ts
+!*.d.ts
+
+# 测试文件
+__tests__/
+*.test.ts
+*.spec.ts
+test/
+tests/
+
+# 配置文件
+tsconfig.json
+jest.config.js
+.eslintrc*
+.prettierrc*
+
+# 开发工具
+.github/
+.vscode/
+.idea/
+
+# 文档
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+
+# 其他
+.gitignore
+.npmignore
+coverage/ 
