@@ -1,17 +1,17 @@
-# simple-math-utils
+# simple-math-utils-ray
 
 一个简单的数学工具包，提供基础的数学运算功能。
 
 ## 安装
 
 ```bash
-npm install simple-math-utils
+npm install simple-math-utils-ray
 ```
 
 或者使用 yarn：
 
 ```bash
-yarn add simple-math-utils
+yarn add simple-math-utils-ray
 ```
 
 ## 使用方法
@@ -19,7 +19,7 @@ yarn add simple-math-utils
 ### 导入函数
 
 ```typescript
-import { add } from 'simple-math-utils';
+import { add } from 'simple-math-utils-ray';
 
 const result = add(2, 3); // 返回 5
 console.log(result);
@@ -28,7 +28,7 @@ console.log(result);
 ### 使用类方法
 
 ```typescript
-import { MathUtils } from 'simple-math-utils';
+import { MathUtils } from 'simple-math-utils-ray';
 
 const result = MathUtils.add(10, 20); // 返回 30
 console.log(result);
@@ -37,7 +37,7 @@ console.log(result);
 ### 默认导入
 
 ```typescript
-import mathUtils from 'simple-math-utils';
+import mathUtils from 'simple-math-utils-ray';
 
 const result1 = mathUtils.add(5, 3); // 返回 8
 const result2 = mathUtils.MathUtils.add(7, 2); // 返回 9
@@ -61,7 +61,7 @@ const result2 = mathUtils.MathUtils.add(7, 2); // 返回 9
 #### 示例
 
 ```typescript
-import { add } from 'simple-math-utils';
+import { add } from 'simple-math-utils-ray';
 
 // 基本用法
 add(2, 3); // 5
@@ -97,7 +97,7 @@ add(2, NaN); // 抛出 Error: 参数必须是有限数字
 与 `add` 函数功能相同。
 
 ```typescript
-import { MathUtils } from 'simple-math-utils';
+import { MathUtils } from 'simple-math-utils-ray';
 
 MathUtils.add(2, 3); // 5
 ```

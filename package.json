@@ -1,5 +1,5 @@
 {
-  "name": "simple-math-utils",
+  "name": "simple-math-utils-ray",
   "version": "1.0.0",
   "description": "一个简单的数学工具包，提供基础的数学运算功能",
   "main": "dist/index.js",
@@ -21,16 +21,16 @@
     "calculator",
     "typescript"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "meetguardian@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/simple-math-utils.git"
+    "url": "https://github.com/GuardianRay/simple-math-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/simple-math-utils/issues"
+    "url": "https://github.com/GuardianRay/simple-math-utils/issues"
   },
-  "homepage": "https://github.com/yourusername/simple-math-utils#readme",
+  "homepage": "https://github.com/GuardianRay/simple-math-utils#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
