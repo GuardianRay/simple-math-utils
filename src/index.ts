@@ -28,6 +28,24 @@ export function add(a: number, b: number): number {
 }
 
 /**
+ * 将两个数字相减
+ * @param a 第一个数字
+ * @param b 第二个数字
+ * @returns 两个数字的差
+ */
+export function subtract(a: number, b: number): number {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new TypeError('参数必须是数字类型');
+    }
+    
+    if (!Number.isFinite(a) || !Number.isFinite(b)) {
+        throw new Error('参数必须是有限数字');
+    }
+
+    return a - b;
+}
+
+/**
  * 数学工具类
  */
 export class MathUtils {
@@ -45,5 +63,6 @@ export class MathUtils {
 // 默认导出
 export default {
   add,
+  subtract,
   MathUtils
 }; 
